@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: c0a5613c-be2f-436e-8c59-285880191181
+
+localResources:
+  specs:
+    - ../TaskManagement.API/obj/Debug/net10.0/EndpointInfo/TaskManagement.API.json
