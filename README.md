@@ -1,38 +1,68 @@
-# task-management-frontend
+# Task Management App
 
-This template should help get you started developing with Vue 3 in Vite.
+A full-stack Task Management application built with ASP.NET Core Web API, Vue.js, Tailwind CSS, and SQL Server.
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Create new tasks
+- View all tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Set task due dates
+- Task dashboard with statistics
+- Responsive and mobile-friendly design
 
-## Recommended Browser Setup
+## Technologies Used
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Frontend
+- Vue.js 3
+- Vite
+- Tailwind CSS
 
-## Customize configuration
+### Backend
+- ASP.NET Core Web API
+- Entity Framework Core
+- C#
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Database
+- Microsoft SQL Server
 
-## Project Setup
+### Tools
+- Visual Studio
+- Visual Studio Code
+- Postman
+- Git & GitHub
 
-```sh
-npm install
-```
+## Screenshots
 
-### Compile and Hot-Reload for Development
+### Dashboard
 
-```sh
-npm run dev
-```
+![Dashboard](screenshots/dashboard.png.png)
 
-### Compile and Minify for Production
+### Add Task
 
-```sh
-npm run build
-```
+![Add Task](screenshots/add-task.png.png)
+
+### Task Card
+
+![Task Card](screenshots/task-card.png.png)
+
+### Edit Task
+
+![Edit Task](screenshots/edit-task.png.png)
+
+### Mobile View
+
+![Mobile View](screenshots/mobile-view.png.png)
+
+## Project Structure
+
+```text
+TaskManagement/
+├── TaskManagement.API/
+├── task-management-frontend/
+├── screenshots/
+├── postman/
+├── TaskManagement.slnx
+└── README.md
