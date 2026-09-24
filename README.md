@@ -1,6 +1,10 @@
 # Task Management App
 
-A full-stack Task Management application built with ASP.NET Core Web API, Vue.js, Tailwind CSS, and SQL Server.
+A full-stack Task Management application that allows users to create, manage, update, and delete tasks through a responsive web interface.
+
+## Overview
+
+This project was developed to practice full-stack web development by connecting a Vue.js frontend with an ASP.NET Core Web API and SQL Server database.
 
 ## Features
 
@@ -10,29 +14,36 @@ A full-stack Task Management application built with ASP.NET Core Web API, Vue.js
 - Delete tasks
 - Mark tasks as completed
 - Set task due dates
-- Task dashboard with statistics
-- Responsive and mobile-friendly design
+- Dashboard with task statistics
+- Responsive and mobile-friendly interface
+- RESTful API integration
+- Data persistence using SQL Server
 
 ## Technologies Used
 
 ### Frontend
+
 - Vue.js 3
 - Vite
 - Tailwind CSS
 
 ### Backend
+
 - ASP.NET Core Web API
-- Entity Framework Core
 - C#
+- Entity Framework Core
 
 ### Database
+
 - Microsoft SQL Server
 
-### Tools
+### Development Tools
+
 - Visual Studio
 - Visual Studio Code
 - Postman
-- Git & GitHub
+- Git
+- GitHub
 
 ## Screenshots
 
