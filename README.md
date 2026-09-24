@@ -44,9 +44,9 @@ A full-stack Task Management application built with ASP.NET Core Web API, Vue.js
 
 ![Add Task](screenshots/add-task.png.png)
 
-### Task Card
+### Delete Confirmation
 
-![Task Card](screenshots/task-card.png.png)
+![Delete Confirmation](screenshots/delete-task.png.png)
 
 ### Edit Task
 
